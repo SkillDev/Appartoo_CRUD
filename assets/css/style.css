@@ -1,0 +1,108 @@
+/*__________________________________Reset_____________________________*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*____________________________________________________________________________*/
+header {
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+body {
+    background-color: #FEE8D6;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+h1 img {
+    width: 150px;
+}
+.header {
+    width: 1180px;
+    background-color: #fff;
+    margin: auto;
+}
+.content {
+    width: 650px;
+    padding: 20px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 5px;
+}
+.content input, .content button {
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
+.content .ville-input {
+    float: left;
+    width: 78.5%;
+    margin-right: 30px;
+}
+.update-post, .cancel-post{
+    display: none;
+}
+.post_list  li {
+    list-style: none;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+.title, .description, .type, .ville, .loyer, .numero {
+    color: #3dbfa8;
+}
+.description-input {
+    margin-bottom: 15px;
+}
+.add-post {
+    font-size: 1.2em;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 77.5%;
+}
+#map-canvas {
+    width: 610px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    display: none;
+    margin-bottom: 15px;
+}
